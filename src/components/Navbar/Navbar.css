@@ -1,3 +1,7 @@
 .activeLink {
     color: red;
 }
+
+ul {
+    display: flex;
+}

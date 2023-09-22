@@ -18,7 +18,7 @@ export default function Navbar() {
                     </a>
                 </div>
 
-                <div className="col-6">
+                <div className="col-6 justify-content-between align-items">
                     <ul>
                         {
                             menu?.map((element, value) => <li key={element.value} className={data === element ? 'activeLink' : ''} onClick={() => setData(element)}>{element}</li>)
